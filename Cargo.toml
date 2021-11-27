@@ -1,0 +1,11 @@
+[package]
+name = "thirties_dice_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3" #cargo gives us a rand crate #0.8.3 is the version
+colored = "2"
+ansi_term = "*"
