@@ -49,7 +49,6 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [rust-lang - vector.pop](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=4547762e00f785f3abcfdd8b44a5d077)
 * [programming-idioms - vector.pop](https://programming-idioms.org/idiom/226/delete-last-element-from-list/4074/rust)
 * [Grepper - i32 as usize](https://www.codegrepper.com/code-examples/rust/convert+i32+to+usize+rust)
