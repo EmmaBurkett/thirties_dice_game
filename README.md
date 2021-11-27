@@ -32,7 +32,6 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 * Rust
 * Visual Studio Code
 * Windows PowerShell
