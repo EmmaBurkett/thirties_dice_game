@@ -42,7 +42,7 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 * Ansi_term 0.12.1 -> Colors terminal
 * Rand 0.8.4 -> Allows for randomization
 
-#Libraries 
+# Libraries 
 * rand::Rng; -> Rng trait defines methods that random number generators implement 
 * std::io -> input output library from the std or standard library 
 * colored::Colorize -> Colors terminal
@@ -68,7 +68,7 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 # Future Work
 * A program which interacts with HTML and sets up a schedule for the day
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+# Fix and Add
 * Different user interface than terminal
 * A breif discription of the rules at the beginning of the game
 * Creating a new structure for the structs - i.e. having a player struct
