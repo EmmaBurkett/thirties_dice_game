@@ -3,7 +3,7 @@
 My initial goal for this project was to understand rust as a language, but a side goal developed rather quickly. My goal was not only to learn rust but also to understand ownership and lifetime parameters. I've struggle with C++ for a long time, because I didn't understand concepts like these, but now if I try to write another program in C++ I would really enjoy it. Rust is an amazing language and Visual Studio Code is a great learning tool.
 
 This is a 30's dice game, and the goal is to keep your 'main' points.
-#### Rules
+### Rules
 
 * Player one throws 6 six dice with the goal to have those dice total to, or over, 30 points.
 * The player sets aside the dice they would like to keep, at least one die, and rolls again.
