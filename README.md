@@ -27,7 +27,7 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 # My purpose in writing this software was to...
 
         Entertain my friends
-        ![this is an image](C:\Users\emmal\projects\thirties_dice_game\whimsical.PNG)
+        ![this is an image](thirties_dice_game/whimsical.PNG)
 
 [Software Demo Video](http://youtube.link.goes.here)
 
