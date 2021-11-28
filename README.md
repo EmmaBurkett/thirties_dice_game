@@ -1,6 +1,6 @@
 # Overview
 
-My initial goal for this project was to understand rust as a language, but a side goal developed rather quickly. My goal was not only to learn rust but also to understand ownership and lifetime parameters. I've struggle with C++ for a long time, because I didn't understand concepts like these, but now if I try to write another program in C++ I would really enjoy it. Rust is an amazing language and Visual Studio Code is a great learning tool.
+My initial goal for this project was to understand rust as a language, but a side goal developed rather quickly. My goal was not only to learn rust but also to understand ownership and lifetime parameters. I've struggled with C++ for a long time, because I didn't understand concepts like these, but now if I try to write another program in C++ I would really enjoy it. Rust is an amazing language and Visual Studio Code is a great learning tool.
 
 This is a 30's dice game, and the goal is to keep your 'main' points.
 ###### Rules
@@ -11,7 +11,7 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 ###### Attack
 
 * If the dice total over thirty they get to attack the other player's main points.
-* Take the dice total and subract thirty: Ex. 35 - 30 = 5
+* Take the dice total and subtract thirty: Ex. 35 - 30 = 5
 * Then roll all six dice
 * If the player rolled any fives they set those dice aside
 * If no fives were rolled then the 'attack' stops
@@ -68,5 +68,5 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 
 # Fix and Add
 * Different user interface than terminal
-* A breif discription of the rules at the beginning of the game
+* A brief description of the rules at the beginning of the game
 * Creating a new structure for the structs - i.e. having a player struct
