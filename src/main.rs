@@ -2,7 +2,11 @@ use rand::Rng; //Rng trait defines methods that random number generators impleme
 use std::io; //input output library from the std or standard library 
 use colored::Colorize;
 use ansi_term::Style;
-
+//structs
+//lifetime parameters
+//slices
+//outer loops
+//dereferences
 struct Game<'a> {
     name:           &'a String,
     opponent:       &'a String,
@@ -122,11 +126,13 @@ impl<'a> Game<'a> {
         if attack_points > 0 {
             println!("\n You get to attack!\n--------------------");
             self.set_dice = 0;
-            while self.set_dice <= 6 {
+            while self.set_dice < 6 {
                 self.rand_dice();
+                //self.dice = [attack_points, attack_points, attack_points, attack_points, attack_points, attack_points].to_vec();
                 self.sort();
+                self.display_dice();
                 self.dice_tot = 0;
-                if self.dice.contains(&attack_points){
+                if self.dice[self.set_dice as usize..self.dice.len() as usize].contains(&attack_points){
                     for i in self.set_dice..((self.dice.len() as i32)) {
                         if attack_points == self.dice[i as usize] {
                             attack_tot += attack_points;
@@ -134,15 +140,13 @@ impl<'a> Game<'a> {
                         }
                     }
                     println!("Attack Total: {}", attack_tot);
-                    self.display_dice();
                 }
                 else {
                     println!("Attack Total: {}", attack_tot);
-                    self.display_dice();
+                    //self.display_dice();
                     self.message = "Press any key to move on".to_string();
                     self.key_press = "Any".to_string();
                     self.process_answer();
-                    println!("");
                     break;
                 }
                
@@ -153,7 +157,7 @@ impl<'a> Game<'a> {
                 
             }
 
-            println!("\nYour opponent lost {} points :)", attack_tot);
+            println!("Your opponent lost {} points :)", attack_tot);
 
             if self.player_number % 4 == 2 {
                 *self.opponent_total = *self.opponent_total - attack_tot;
@@ -164,7 +168,7 @@ impl<'a> Game<'a> {
 
         }
         else if attack_points == 0 {
-            println!("You Broke Even Bro.");
+            println!("\nYou Broke Even Bro.");
         }
         else {
             if self.player_number % 4 == 2 {
