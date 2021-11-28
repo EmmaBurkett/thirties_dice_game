@@ -75,3 +75,4 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 * Different user interface than terminal
 * A brief description of the rules at the beginning of the game
 * Creating a new structure for the structs - i.e. having a player struct
+* More colors
