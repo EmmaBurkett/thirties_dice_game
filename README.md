@@ -33,7 +33,7 @@ This is a 30's dice game, and the goal is to keep your 'main' points.
 ![whimsical](https://user-images.githubusercontent.com/77114845/143724111-6c8689f8-7046-48a1-b84e-6bcef7893ea3.PNG)
 
 
-## [Software Demo Video](https://youtu.be/hfPGQgLclBY)
+## [Software Demo Video](https://youtu.be/FmDq_GhdF9g)
 
 # Development Environment
 
