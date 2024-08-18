@@ -1,4 +1,4 @@
-# Are you here from my resume? Are you wondering WHERE THE CALANDER PROGRAM IS????
+# Are you here from my resume? Are you wondering WHERE THE CALENDER PROGRAM IS????
 This is a Rust based dice game. The calender program cannot be posted online as it is a school project and out of respect for future above and beyond students I will not post my solution.
 
 
