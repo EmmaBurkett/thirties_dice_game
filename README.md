@@ -1,3 +1,8 @@
+# Are you here from my resume? Are you wondering WHERE THE CALANDER PROGRAM IS????
+This is a Rust based dice game. The calender program cannot be posted online as it is a school project and out of respect for future above and beyond students I will not post my solution.
+
+
+
 # Overview
 
 My initial goal for this project was to understand rust as a language, but a side goal developed rather quickly. My goal was not only to learn rust but also to understand ownership and lifetime parameters. I've struggled with C++ for a long time, because I didn't understand concepts like these, but now if I try to write another program in C++ I would really enjoy it. Rust is an amazing language and Visual Studio Code is a great learning tool.
